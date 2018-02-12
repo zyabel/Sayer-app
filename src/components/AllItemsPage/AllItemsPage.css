@@ -1,0 +1,31 @@
+.all-items-wrap {
+  max-width: 640px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.all-items-wrap .header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #fff;
+  background-color: #0E1D3C;
+  padding: 44px 44px 63px;
+}
+
+.all-items-wrap h1 {
+  font-size: 47pt;
+}
+
+.all-items-wrap .header p {
+  font-size: 17pt;
+}
+
+.message {
+  text-align: center;
+  font-size: 25pt; 
+  margin-top: 50px;
+}

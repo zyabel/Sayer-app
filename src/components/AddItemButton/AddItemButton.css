@@ -1,0 +1,24 @@
+.add-item-button {
+  position: fixed;
+  left: 46%;
+  top: 80%;
+  margin: 0 auto;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: #D4145A;
+  color: #fff;
+  font-size: 74pt;
+  border: 0;
+  box-shadow: 2px 2px 9px -1px #000;
+}
+
+.add-item-button:hover {
+  background-color: #fff;
+  color: #D4145A;
+}
+
+.add-item-button:active {
+  text-shadow: 2px 2px 2px #0a0a0a;
+  box-shadow: 2px 2px 2px #0a0a0a inset;
+}

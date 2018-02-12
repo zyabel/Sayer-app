@@ -1,0 +1,25 @@
+.comment-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.comment-avatar {
+  width: 25%;
+}
+
+.comment-avatar img {
+  width: 100px;
+  height: 100px;
+  margin: 33% 20%;
+  border: 1px solid #CCCCCC;
+}
+
+.comment-text {
+  width: 75%;
+  font-size: 22pt;
+  color: #666666;
+  padding: 36px 42px 68px 37px;
+  line-height: 1.39;
+}

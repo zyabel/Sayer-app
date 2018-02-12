@@ -1,0 +1,63 @@
+.new-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26pt;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.new-item:hover .delete-item-button {
+  display: block;
+}
+
+.new-item:hover .blog-counter {
+  display: none;
+}
+
+a, a:visited {
+  text-decoration: none; 
+}
+
+.new-item span {
+  display: block;
+  padding: 54px 0 54px 35px;
+}
+
+.delete-item-button {
+  display: none;
+  width: 30%;
+  padding: 51px 17px;
+  text-align: center;
+  background: #d4145a;
+  border: 0;
+  font-size: 26pt;
+  color: #fff;
+}
+
+.delete-item-button:hover {
+  background: #fff;
+  color: #d4145a;
+  border: 1px solid #d4145a;
+  padding: 50px 17px;
+}
+
+.delete-item-button:active {
+  text-shadow: 2px 2px 2px #0a0a0a;
+  box-shadow: 2px 2px 2px #0a0a0a inset;
+}
+
+.blog-counter {
+  width: 71px;
+  height: 71px;
+  margin: 35px 17px;
+  background-color: #313464;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.blog-counter span {
+  display: block;
+  margin: 18% 25%;
+  padding: 0;
+  text-align: center;
+}
+
